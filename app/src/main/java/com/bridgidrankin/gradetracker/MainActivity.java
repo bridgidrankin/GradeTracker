@@ -6,30 +6,21 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // CS 2080: Programming with UNIX
-    // CS 2160: Comp Org & Assembly Language
-    // CS 3020: Advanced OO Tech Using C#/.Net
-    // CS 3050: Social and Ethical Implications of Computing
-    // MATH 2150: Discrete Mathematics
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-        // Create a GPA Calculator with the following:
+        // Save up to 5 grades in the Grade variables
+        // Save up to 5 credit hours in the Credits variables
 
+        // A- -> 3.7
+        // B+ -> 3.3
+        // B -> 3.0
+        // B- -> 2.7
 
-
-
-        // Total Grade Points : 45.9
-        // Credits : 12.0
-        // GPA : 3.825
-
-        // (grade1*credits1) + (grade2*credits2) / (credits1+credits2)
-        // TGP += sum of (grade*credits)
-        // Credits += credits
-        // GPA =
+        // Enter 0 for any classes you'd like to leave blank
 
         GPACalculator newGrades = new GPACalculator(45.9, 12.0,
                 4.0, 3.0,
@@ -40,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
         String newGPA = newGrades.calculateGPA();
 
         displayGPA(newGPA);
-
-
-
     }
 
     public void displayGPA(String GPAString) {

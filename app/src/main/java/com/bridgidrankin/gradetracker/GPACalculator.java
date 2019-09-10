@@ -4,11 +4,8 @@ import java.text.DecimalFormat;
 
 public class GPACalculator {
 
-    // CS 2080: Programming with UNIX
-    // CS 2160: Comp Org & Assembly Language
-    // CS 3020: Advanced OO Tech Using C#/.Net
-    // CS 3050: Social and Ethical Implications of Computing
-    // MATH 2150: Discrete Mathematics
+    // Save up to 5 grades in the Grade variables
+    // Save up to 5 credit hours in the Credits variables
 
     // A- -> 3.7
     // B+ -> 3.3
