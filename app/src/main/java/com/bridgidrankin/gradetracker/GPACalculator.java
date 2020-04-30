@@ -1,5 +1,3 @@
-package com.bridgidrankin.gradetracker;
-
 import java.text.DecimalFormat;
 
 public class GPACalculator {
